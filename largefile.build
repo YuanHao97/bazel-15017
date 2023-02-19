@@ -1,0 +1,7 @@
+cc_library(
+    name = "largefile",
+    srcs = ["*.cc"],
+    hdrs = ["*.h"],
+    visibility = ["//visibility:public"],
+
+)
